@@ -1,103 +1,89 @@
-# Amara Living
+# ✨ Amara Living
 
-Premium marketing website for **Amara Living** — granite, marble, designer tiles, and bespoke furniture for luxury residential and commercial interiors.
+A premium luxury interior design and surface showcase website built for Amara Living, featuring curated spaces, luxury materials, bespoke furniture, and high-end architectural storytelling.
 
-## Tech Stack
+---
 
-| Layer | Tools |
-| --- | --- |
-| Framework | React 18 |
-| Build | Vite 6 |
+## 🚀 Features
+
+- Full-screen immersive hero section
+- Luxury editorial-style layouts
+- Premium typography system
+- Smooth animations and transitions
+- Dynamic material showcase
+- Investment cost calculator
+- Horizontal testimonial carousel
+- Scroll-spy navigation
+- Fully responsive design
+- Accessible and semantic structure
+
+---
+
+## 🛠 Tech Stack
+
+| Category | Technology |
+|-----------|------------|
+| Frontend | React 18 |
+| Build Tool | Vite 6 |
 | Styling | Tailwind CSS 3 |
-| Animation | Framer Motion 11, GSAP 3, Lenis |
-| Fonts | Playfair Display, Inter (Google Fonts) |
+| Animation | Framer Motion 11 |
+| Scroll Effects | GSAP 3 |
+| Smooth Scrolling | Lenis |
 
-## Folder Structure
+---
 
-```
+## 📁 Project Structure
+
+```text
 src/
+├── assets/
 ├── components/
-│   ├── common/          # Shared utilities (dividers, image hint)
-│   ├── layout/          # Navbar, footer
-│   ├── sections/        # Page sections (hero, gallery, calculator, etc.)
-│   └── ui/              # Reusable UI primitives (loader, stars, badges)
-├── pages/               # Route-level page compositions
-├── assets/              # Static assets (images, icons, fonts)
-├── data/                # Content constants and copy
-├── hooks/               # Custom React hooks and providers
-├── utils/               # Formatting and helpers
-├── constants/           # Navigation, animation tokens
-├── styles/              # Global CSS and Tailwind layers
+│   ├── common/
+│   ├── layout/
+│   ├── sections/
+│   └── ui/
+├── constants/
+├── data/
+├── hooks/
+├── pages/
+├── styles/
+├── utils/
 ├── App.jsx
 └── main.jsx
 ```
 
-## Installation
+---
 
-**Requirements:** Node.js 18+
+## ⚙️ Installation
 
 ```bash
-cd "Amara Living"
 npm install
-```
-
-## Development
-
-```bash
 npm run dev
 ```
 
-Open the URL shown in the terminal (default: `http://localhost:5173`).
+---
 
-## Production Build
+## 🏗 Production Build
 
 ```bash
 npm run build
 npm run preview
 ```
 
-Output is written to `dist/`.
+---
 
-## Deployment
+## 🎨 Design Philosophy
 
-Works with any static host (Vercel, Netlify, Cloudflare Pages).
+The website follows a luxury editorial design approach focused on:
 
-| Setting | Value |
-| --- | --- |
-| Build command | `npm run build` |
-| Output directory | `dist` |
-| Install command | `npm install` |
+- Elegant typography
+- Visual storytelling
+- Material-focused presentation
+- Premium user experience
+- Modern responsive design
 
-### Vercel (CLI)
+---
 
-```bash
-npm install -g vercel
-npm run build
-vercel --prod
-```
+## 📄 License
 
-## Features
-
-- Full-screen hero with rotating imagery
-- Scroll-spy navigation with mobile menu
-- Lenis smooth scrolling + GSAP ScrollTrigger
-- Lazy-loaded below-the-fold sections
-- Surface gallery, materials accordion, investment calculator
-- Horizontal testimonial carousel
-- Accessible skip link, focus states, semantic landmarks
-
-## Content
-
-Section copy and image URLs live in `src/data/content.js`. Replace Unsplash URLs with client assets in `src/assets/images/` for production.
-
-## Scripts
-
-| Command | Description |
-| --- | --- |
-| `npm run dev` | Start dev server |
-| `npm run build` | Production build |
-| `npm run preview` | Preview production build |
-
-## License
-
-Private — Amara Living.
+Private Project — Amara Living
